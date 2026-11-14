@@ -2,7 +2,7 @@
 
 **Date:** 2026-11-12 (taught) · 2026-11-13 (knowledge check)
 **Guide reference:** Task 1.1 "AWS global infrastructure (for example, Availability Zones, AWS Regions)"; also Tasks 2.2, 3.3, 4.2.
-**Part B (shared responsibility model):** not yet taught.
+**Part B (shared responsibility model):** see 01b-shared-responsibility.md.
 
 ## Summary
 
