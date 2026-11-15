@@ -4,6 +4,7 @@
 
 | Date | Topic | Score | Weak points |
 |------|-------|-------|-------------|
+| 2026-11-15 | 1.03A STS & assuming roles | 5/5 | None. No reasons given; External ID was recognition only (recall gap from the knowledge check) |
 | 2026-11-14 | 1.02 IAM fundamentals | 5/5 | None. No reasons given this time; reasoning shown earlier in the knowledge checks |
 | 2026-11-14 | 1.01 Global infra & shared responsibility | 5/5 | None. Q1/Q5 were recognition (multiple choice), so recall still needs testing |
 
@@ -17,6 +18,24 @@
 - My answer: B  | Correct: C  | ✅/❌
 - Misunderstanding: ...
 -->
+
+### 2026-11-15 – Domain 1.03 Part A STS & assuming roles
+**Score:** 5/5
+
+**Q1.** SaaS vendor (multi-tenant) needs read-only billing access, most secure
+- My answer: B | Correct: B | ✅ (role + External ID; weak-topic retest)
+
+**Q2.** Dev users restart EC2 in Prod, least overhead, no long-lived creds
+- My answer: B | Correct: B | ✅
+
+**Q3.** Mobile app, Google sign-in, temporary creds for S3
+- My answer: C | Correct: C | ✅
+
+**Q4.** Two requirements to assume a cross-account role (choose TWO)
+- My answer: A, B | Correct: A, B | ✅
+
+**Q5.** Role session can't use the user's original EC2 permissions
+- My answer: C | Correct: C | ✅
 
 ### 2026-11-14 – Domain 1.02 IAM fundamentals
 **Score:** 5/5

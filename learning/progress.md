@@ -32,6 +32,17 @@ Per-section status lives in each `domains/*/README.md`.
 - Next step:
 -->
 
+### 2026-11-15 – Quiz 1.03 Part A
+- Score: 5/5 (no reasons given). External ID weak topic answered correctly in Q1 → resolved (recognition only).
+- Status: 1.03 stays `In progress`; Part A has quiz evidence, Part B not yet taught.
+- Next step: 1.03 Part B: roles vs resource-based policies, service roles, iam:PassRole.
+
+### 2026-11-15 – Domain 1.03 Part A: STS & assuming roles
+- Covered: STS temporary credentials, AssumeRole flow (trust policy + caller's sts:AssumeRole permission), session duration and role chaining, STS API variants, cross-account role pattern, External ID / confused deputy, revoking sessions.
+- Evidence: Knowledge check Q1 correct (role in member accounts trusting the Audit account). Q2 missed External ID / confused deputy. Also thought the owner generates credentials for the third party.
+- Status: 1.03 `In progress` (Part B, roles vs resource-based policies and PassRole, not yet taught).
+- Next step: quiz on Part A, or start Part B.
+
 ### 2026-11-14 – Quiz 1.02
 - Score: 5/5, including explicit deny vs allow, cross-account two-sided allow, roles vs access keys, groups, root best practices. Supported by correct knowledge-check reasoning in Parts A and B.
 - Status: 1.02 → `Understood`.
