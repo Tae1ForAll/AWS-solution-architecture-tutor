@@ -16,7 +16,7 @@
 
 | Domain | Sections | Taught | Understood |
 |--------|----------|--------|------------|
-| 1 – Secure (30%) | 10 | 2 | 2 |
+| 1 – Secure (30%) | 10 | 3 | 3 |
 | 2 – Resilient (26%) | 10 | 0 | 0 |
 | 3 – High-Performing (24%) | 11 | 0 | 0 |
 | 4 – Cost-Optimized (20%) | 9 | 0 | 0 |
@@ -31,6 +31,17 @@ Per-section status lives in each `domains/*/README.md`.
 - Evidence of understanding:
 - Next step:
 -->
+
+### 2026-11-16 – Quiz 1.03 Part B
+- Score: 5/5, including the tricky two-sided cross-account question (Q2: C over B). No reasons given, but the Part B knowledge check showed correct reasoning on role vs resource policy. Part A quiz was also 5/5.
+- Status: 1.03 → `Understood`. Recall still to be tested: External ID / confused deputy, privilege escalation (PassRole).
+- Next step: 1.04 Multi-account security & federation.
+
+### 2026-11-16 – Domain 1.03 Part B: Roles vs resource-based policies, service roles, PassRole
+- Covered: role vs resource-based policy for cross-account access (permissions given up vs kept), service roles, service-linked roles, instance profiles and IMDSv2, iam:PassRole and privilege escalation.
+- Evidence: Knowledge check Q1 correct with good reasoning, and noticed on their own that a role could also work if A's bucket trusts it. Q2 named iam:PassRole correctly but described the risk loosely (didn't say "privilege escalation").
+- Status: 1.03 → `Taught` (Parts A + B). Part A quizzed 5/5; Part B not yet quizzed.
+- Next step: quiz on 1.03 Part B (or all of 1.03), then 1.04 Multi-account security & federation.
 
 ### 2026-11-15 – Quiz 1.03 Part A
 - Score: 5/5 (no reasons given). External ID weak topic answered correctly in Q1 → resolved (recognition only).

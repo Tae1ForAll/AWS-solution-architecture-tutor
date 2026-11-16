@@ -4,6 +4,7 @@
 
 | Date | Topic | Score | Weak points |
 |------|-------|-------|-------------|
+| 2026-11-16 | 1.03B Roles vs resource policies, service roles, PassRole | 5/5 | None. No reasons given (they were requested), so recognition only. Reasoning shown in the knowledge check |
 | 2026-11-15 | 1.03A STS & assuming roles | 5/5 | None. No reasons given; External ID was recognition only (recall gap from the knowledge check) |
 | 2026-11-14 | 1.02 IAM fundamentals | 5/5 | None. No reasons given this time; reasoning shown earlier in the knowledge checks |
 | 2026-11-14 | 1.01 Global infra & shared responsibility | 5/5 | None. Q1/Q5 were recognition (multiple choice), so recall still needs testing |
@@ -18,6 +19,24 @@
 - My answer: B  | Correct: C  | ✅/❌
 - Misunderstanding: ...
 -->
+
+### 2026-11-16 – Domain 1.03 Part B Roles vs resource policies, service roles, PassRole
+**Score:** 5/5
+
+**Q1.** EC2 app with access keys in a config file → most secure, least management
+- My answer: B | Correct: B | ✅ (instance profile)
+
+**Q2.** Lambda in A keeps DynamoDB access while sending to SQS in B
+- My answer: C | Correct: C | ✅ (queue policy + identity policy, two-sided)
+
+**Q3.** iam:PassRole error, least-privilege fix
+- My answer: C | Correct: C | ✅
+
+**Q4.** Central security account describes EC2/RDS in 30 accounts
+- My answer: B | Correct: B | ✅ (EC2/RDS have no resource policies → cross-account roles)
+
+**Q5.** Instance profile facts (choose TWO)
+- My answer: A, C | Correct: A, C | ✅
 
 ### 2026-11-15 – Domain 1.03 Part A STS & assuming roles
 **Score:** 5/5
