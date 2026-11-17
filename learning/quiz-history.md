@@ -4,6 +4,7 @@
 
 | Date | Topic | Score | Weak points |
 |------|-------|-------|-------------|
+| 2026-11-17 | 1.04A Organizations, SCPs & Control Tower | 5/5 | Q1 reason (required) not given; "SCPs never grant" still unproven by recall. Q2 reason good (root user) |
 | 2026-11-16 | 1.03B Roles vs resource policies, service roles, PassRole | 5/5 | None. No reasons given (they were requested), so recognition only. Reasoning shown in the knowledge check |
 | 2026-11-15 | 1.03A STS & assuming roles | 5/5 | None. No reasons given; External ID was recognition only (recall gap from the knowledge check) |
 | 2026-11-14 | 1.02 IAM fundamentals | 5/5 | None. No reasons given this time; reasoning shown earlier in the knowledge checks |
@@ -19,6 +20,24 @@
 - My answer: B  | Correct: C  | ✅/❌
 - Misunderstanding: ...
 -->
+
+### 2026-11-17 – Domain 1.04 Part A Organizations, SCPs & Control Tower
+**Score:** 5/5
+
+**Q1.** Allow-list SCP allows s3:*, but IAM grants only ec2:* → S3 AccessDenied cause
+- My answer: B | Correct: B | ✅ (weak-topic retest; required reason not given)
+
+**Q2.** Region restriction that root users and admins can't bypass
+- My answer: B | Correct: B | ✅ Reason: "SCP needed to limit the maximum for root users also" (didn't mention that admins can't remove it)
+
+**Q3.** All org accounts write to the central log bucket, accounts added weekly
+- My answer: B | Correct: B | ✅ (aws:PrincipalOrgID)
+
+**Q4.** 15 accounts, best-practice landing zone, least overhead
+- My answer: B | Correct: B | ✅ (Control Tower)
+
+**Q5.** SCP at root denies unapproved instance types (choose TWO)
+- My answer: A, B | Correct: A, B | ✅ (also rejected E, "SCP grants")
 
 ### 2026-11-16 – Domain 1.03 Part B Roles vs resource policies, service roles, PassRole
 **Score:** 5/5

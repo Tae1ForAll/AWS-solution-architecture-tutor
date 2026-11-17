@@ -32,6 +32,17 @@ Per-section status lives in each `domains/*/README.md`.
 - Next step:
 -->
 
+### 2026-11-17 – Quiz 1.04 Part A
+- Score: 5/5. Q2 reason given correctly (SCP restricts root users) → "why SCP over IAM" resolved. Q1 reason given in a follow-up ("IAM policy must grant s3 also") → "SCPs never grant" resolved. No open weak topics.
+- Status: 1.04 stays `In progress` (Part B not yet taught).
+- Next step: 1.04 Part B (IAM Identity Center & federation).
+
+### 2026-11-17 – Domain 1.04 Part A: Organizations, SCPs & Control Tower
+- Covered: Organizations structure, OUs, consolidated billing, all-features vs billing-only, SCP evaluation and inheritance, what SCPs do and don't affect, aws:PrincipalOrgID, Control Tower landing zone and controls, SCP vs permissions boundary.
+- Evidence: Knowledge check Q1 correct tool and location, but reasoning was secondary (didn't say that IAM can't restrict the root user or self-administering admins) and the deny was too broad. Q2 didn't identify that SCPs never grant.
+- Status: 1.04 `In progress` (Part B, Identity Center and federation, not yet taught).
+- Next step: quiz on Part A (retest "SCPs never grant" and "why SCP over IAM"), or start Part B.
+
 ### 2026-11-16 – Quiz 1.03 Part B
 - Score: 5/5, including the tricky two-sided cross-account question (Q2: C over B). No reasons given, but the Part B knowledge check showed correct reasoning on role vs resource policy. Part A quiz was also 5/5.
 - Status: 1.03 → `Understood`. Recall still to be tested: External ID / confused deputy, privilege escalation (PassRole).

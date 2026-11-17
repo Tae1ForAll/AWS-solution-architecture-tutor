@@ -16,7 +16,7 @@
 | 01 | Global infrastructure & shared responsibility model | 1.1 | Regions, AZs; shared responsibility model | Understood |
 | 02 | IAM fundamentals | 1.1 | Users, groups, roles, policies; least privilege; root user & MFA | Understood |
 | 03 | Roles, STS & cross-account access | 1.1 | AWS STS, role switching, cross-account access; resource policies | Understood |
-| 04 | Multi-account security & federation | 1.1 | Organizations, SCPs, Control Tower; IAM Identity Center; federating a directory service (Directory Service) with IAM roles | Not started |
+| 04 | Multi-account security & federation | 1.1 | Organizations, SCPs, Control Tower; IAM Identity Center; federating a directory service (Directory Service) with IAM roles | In progress |
 | 05 | VPC security design | 1.2 | Security groups, network ACLs, route tables, NAT gateways; public vs private subnets; service endpoints | Not started |
 | 06 | Secure external connectivity | 1.2 | Site-to-Site VPN, Client VPN, Direct Connect | Not started |
 | 07 | Application protection & threat detection | 1.2 | Shield, WAF, Firewall Manager, Network Firewall; DDoS, SQL injection; GuardDuty, Inspector, Detective, Security Hub; Cognito | Not started |
